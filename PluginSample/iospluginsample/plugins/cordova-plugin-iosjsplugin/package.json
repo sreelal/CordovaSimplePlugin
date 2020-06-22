@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-iosjsplugin",
+  "version": "0.0.1",
+  "description": "Sample Plugin to show iOS JS Two way communication",
+  "cordova": {
+    "id": "cordova-plugin-iosjsplugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Sreelal Hamsavahanan",
+  "license": "ISC"
+}

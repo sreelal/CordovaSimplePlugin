@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class = "header-container">
+                <h1>Cordova Plugin Sample</h1>
+            </div>
+             <div id="deviceready" class="data-container">
+                <h1 id="output"></h1>
+                <input id="inputValue" type="tel" placeholder="Enter Value">
+                <div class="custom-select">
+                    <select id = "dropdown">
+                      <option value="0">Celsius To Farenheit</option>
+                      <option value="1">Farenheit To Celsius</option>
+                    </select>
+                </div>
+            </div> 
+            <div class = "footer-container">
+                <h6 id = "footer">You are running on : </h6>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
