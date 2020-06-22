@@ -14,7 +14,7 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		96591BA9B0FF4B3384196881 /* iOSJSPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B6328DC392430984CEE199 /* iOSJSPlugin.m */; };
+		8200E11339294481B33453F5 /* iOSJSPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C4266B4C8FE94F1E8EC27054 /* iOSJSPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = iOSJSPluginDemo/config.xml; sourceTree = "<group>"; };
-		E1B6328DC392430984CEE199 /* iOSJSPlugin.m */ = {isa = PBXFileReference; name = "iOSJSPlugin.m"; path = "cordova-plugin-iosjsplugin/iOSJSPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C4266B4C8FE94F1E8EC27054 /* iOSJSPlugin.m */ = {isa = PBXFileReference; name = "iOSJSPlugin.m"; path = "cordova-plugin-iosjsplugin/iOSJSPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +167,7 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				E1B6328DC392430984CEE199 /* iOSJSPlugin.m */,
+				C4266B4C8FE94F1E8EC27054 /* iOSJSPlugin.m */,
 			);
 			name = Plugins;
 			path = iOSJSPluginDemo/Plugins;
@@ -298,7 +298,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				96591BA9B0FF4B3384196881 /* iOSJSPlugin.m in Sources */,
+				8200E11339294481B33453F5 /* iOSJSPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
