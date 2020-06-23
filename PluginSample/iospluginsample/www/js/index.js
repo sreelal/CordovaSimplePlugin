@@ -26,6 +26,8 @@ var app = {
 
         document.getElementById("inputValue").addEventListener("input", onInputValueChange);
         document.getElementById("dropdown").addEventListener("click", onChangeDropDownOption);
+        document.getElementById("dropdown").addEventListener("change", onChangeDropDownOption);
+
         var dropdown = document.getElementById("dropdown");
 
         //Set the device name in footer
@@ -41,11 +43,17 @@ var app = {
         function onChangeDropDownOption() {
             document.getElementById("output").innerHTML = "";
             document.getElementById("inputValue").value = ""
+            setDefaultUI()
         }
 
         // getDeviceName
         function onInputValueChange() {
             var enteredValue = document.getElementById("inputValue").value;
+            //return after setting the default UI if the enterred value is empty
+            if(enteredValue.length <= 0 ) {
+                setDefaultUI();
+                return
+            }
             if (dropdown.selectedIndex == 0) {
                 cordova.plugins.iOSJSPlugin.getFarenheitValue(enteredValue,
                 function(data) { 
@@ -53,6 +61,7 @@ var app = {
                 }, 
                 function(error) { 
                     alert(error);
+                    setDefaultUI();
                 })
             } else {
                 cordova.plugins.iOSJSPlugin.getCelsiusValue(enteredValue,
@@ -61,9 +70,17 @@ var app = {
                     }, 
                     function(error) { 
                         alert(error);
+                        setDefaultUI();
                 })
             }
+        }
 
+        function setDefaultUI() {
+            if (dropdown.selectedIndex == 0) {
+                document.getElementById("output").innerHTML = "-- F";
+            } else {
+                document.getElementById("output").innerHTML = "-- &deg;C";
+            }
         }
     }
   

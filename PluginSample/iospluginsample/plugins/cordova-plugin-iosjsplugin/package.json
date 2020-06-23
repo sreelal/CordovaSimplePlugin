@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-iosjsplugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sample Plugin to show iOS JS Two way communication",
   "cordova": {
     "id": "cordova-plugin-iosjsplugin",

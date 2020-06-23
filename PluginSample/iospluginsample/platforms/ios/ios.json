@@ -38,6 +38,6 @@
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.4",
-    "cordova-plugin-iosjsplugin": "0.0.1"
+    "cordova-plugin-iosjsplugin": "0.0.2"
   }
 }
